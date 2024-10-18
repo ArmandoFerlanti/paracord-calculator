@@ -8,12 +8,12 @@
   "theme_color": "#d4e673",
   "icons": [
     {
-      "src": "/paracord/icons/apple-touch-icon.png",
+      "src": "/paracord-calculator/icons/apple-touch-icon.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/paracord/icons/web-app-manifest-512x512.png",
+      "src": "/paracord-calculator/icons/web-app-manifest-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
