@@ -2,7 +2,7 @@
   "name": "Paracord Kobra Calculator",
   "short_name": "KobraCalculator",
   "description": "Calcolatrice per le misure del braccialetto Kobra in paracord",
-  "start_url": "/",
+  "start_url": "/paracord-calculator",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#d4e673",
