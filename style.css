@@ -1,0 +1,96 @@
+body {
+  background-color: #5d6532;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.oswald {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  color: #d4e673;
+}
+
+p {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+#titolo {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  color: #d4e673;
+}
+
+#sottotitolo {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  color: #d4e673;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30vh;
+}
+
+.label {
+  border-radius: 20px;
+  width: 176px;
+  margin: 5px;
+}
+
+#button-wrapper {
+  display: flex;
+}
+
+#calcola {
+  background-color: #5d6532;
+  color: #d4e673;
+  font-family: "Oswald", sans-serif;
+  border-color: transparent;
+}
+
+.results {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  color: #d4e673;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .label {
+    border-radius: 20px;
+    width: 176px;
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #sottotitolo {
+    font-size: large;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #sottotitolo {
+    font-size: medium;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #sottotitolo {
+    font-size: small;
+  }
+}
