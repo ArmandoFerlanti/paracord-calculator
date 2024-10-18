@@ -1,12 +1,12 @@
 const cacheName = "paracord-calculator-cache-v1";
 const assetsToCache = [
-  "/",
-  "/index.html",
-  "/styles.css",
-  "/app.js",
-  "/manifest.json",
-  "/icons/icon-192x192.png",
-  "/icons/icon-512x512.png",
+  "/paracord/",
+  "/paracord/index.html",
+  "/paracord/styles.css",
+  "/paracord/app.js",
+  "/paracord/manifest.json",
+  "/paracord/icons/icon-192x192.png",
+  "/paracord/icons/icon-512x512.png",
 ];
 
 // Install Service Worker e cache delle risorse statiche
