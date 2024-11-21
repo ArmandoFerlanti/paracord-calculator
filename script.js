@@ -16,24 +16,8 @@ document.getElementById("calcola").addEventListener("click", function () {
   const cmdicorda = 14 * polsoCirc;
 
   // Mostra il risultato nel paragrafo con id "result"
-  document.getElementById(
-    "result"
-  ).textContent = `La lunghezza della corda paracord necessaria a produrre il bracciale è di: ${cmdicorda} CM, il bracciale misurerà ${lunghezzaBracciale} CM, mentre il telaio sarà fissato ad un altezza di ${lunghezzaTelaio} CM.
-  
+  document.getElementById("result").textContent = `
+        La lunghezza della corda paracord necessaria a produrre il bracciale è di: ${cmdicorda} CM,
+        il bracciale misurerà ${lunghezzaBracciale} CM, mentre il telaio sarà fissato ad un altezza di ${lunghezzaTelaio} CM.
   `;
 });
-if ("serviceWorker" in navigator) {
-  window.addEventListener("load", () => {
-    navigator.serviceWorker
-      .register("/paracord-calculator/service-worker.js")
-      .then((registration) => {
-        console.log(
-          "Service Worker registrato con successo:",
-          registration.scope
-        );
-      })
-      .catch((error) => {
-        console.log("Registrazione del Service Worker fallita:", error);
-      });
-  });
-}
